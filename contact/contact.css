@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(240, 244, 245);
+  overflow: hidden;
+}
+
+/* Here HEader Section Start */
+/* Here HEader Section Start */
+/* Here HEader Section Start */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 130px;
+}
+.logo img {
+  width: 150px;
+  cursor: pointer;
+}
+.utility {
+  display: flex;
+  gap: 45px;
+  list-style: none;
+}
+.utility li a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* Here Hero Section or MAin Section Start */
+/* Here Hero Section or MAin Section Start */
+/* Here Hero Section or MAin Section Start */
+/* Here Hero Section or MAin Section Start */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactBox {
+  margin-top: 35px;
+  width: 350px;
+  height: 425px;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  gap: 15px;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+form label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+form input {
+  width: 303px;
+  height: 30px;
+  border-radius: 10px;
+  border: transparent;
+  margin-bottom: 13px;
+  padding: 10px;
+}
+form textarea {
+  width: 303px;
+  height: 90px;
+  border-radius: 10px;
+  border: transparent;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.btn {
+  background: #20bc7e;
+  color: white;
+  width: 303px;
+  height: 40px;
+  border-radius: 10px;
+  border: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
