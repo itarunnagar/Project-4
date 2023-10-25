@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "IBM Plex Sans", sans-serif;
+  overflow: 0ver;
 }
 
 body {
@@ -18,6 +19,9 @@ header {
   justify-content: space-between;
   margin: 20px 130px;
 }
+.menuBar {
+  display: none;
+}
 .logo img {
   width: 150px;
   cursor: pointer;
@@ -27,7 +31,7 @@ header {
   gap: 45px;
   list-style: none;
 }
-.utility li a{
+.utility li a {
   text-decoration: none;
   color: black;
   font-size: 15px;
@@ -36,7 +40,7 @@ header {
 }
 
 /* Stethoscope Image */
-.bgc{
+.bgc {
   width: 526px;
   position: absolute;
   left: 335px;
@@ -65,7 +69,6 @@ header {
   margin: 20px 0;
 }
 .bigBtn {
- 
   border: none;
   padding: 15px 40px;
   border-radius: 40px;
@@ -75,7 +78,7 @@ header {
   margin-top: 20px;
   cursor: pointer;
 }
-.bigBtn a{
+.bigBtn a {
   text-decoration: none;
   color: white;
 }
@@ -109,4 +112,79 @@ header {
   top: 63px;
   right: 0px;
   z-index: 1;
+}
+
+/* Media Queries Start From Here */
+/* Media Queries Start From Here */
+/* Media Queries Start From Here */
+/* Media Queries Start From Here */
+@media (max-width: 1150px) {
+  /* Here HEader Section Start */
+  /* Here HEader Section Start */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px 15px;
+  }
+  .menuBar {
+    display: block;
+  }
+  .logo img {
+    width: 150px;
+    cursor: pointer;
+  }
+  .utility {
+    display: none;
+  }
+
+  /* Stethoscope Image */
+  /* Stethoscope Image */
+  .bgc {
+    width: 300px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    z-index: 1;
+  }
+  /* Here Hero Section or Main Section Start */
+  /* Here Hero Section or Main Section Start *
+    /* Here Hero Section or Main Section Start *
+    /* Here Hero Section or Main Section Start */
+  .heroSection {
+    display: block;
+  }
+  .leftHero {
+    width: 100%;
+    margin: 0px;
+    padding: 30px;
+  }
+  .heading {
+    font-size: 45px;
+  }
+  .subHeading {
+    color: #7c7c7c;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+
+  .bigBtn a {
+    text-decoration: none;
+    color: white;
+  }
+  .bottomAngle {
+    position: relative;
+    left: 45px;
+    top: -65px;
+  }
+  .mouseImage {
+    position: relative;
+    left: 50%;
+    top: -120px;
+  }
+
+  .rightHero {
+    display: none;
+  }
 }

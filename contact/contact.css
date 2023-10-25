@@ -19,6 +19,9 @@ header {
   justify-content: space-between;
   margin: 20px 130px;
 }
+.menuBar {
+  display: none;
+}
 .logo img {
   width: 150px;
   cursor: pointer;
@@ -28,7 +31,7 @@ header {
   gap: 45px;
   list-style: none;
 }
-.utility li a{
+.utility li a {
   text-decoration: none;
   color: black;
   font-size: 15px;
@@ -89,4 +92,46 @@ form textarea {
   cursor: pointer;
   font-size: 20px;
   font-weight: 600;
+}
+
+/* Media Queries Start From Here */
+/* Media Queries Start From Here */
+/* Media Queries Start From Here */
+/* Media Queries Start From Here */
+@media (max-width: 1150px) {
+  /* Here HEader Section Start */
+  /* Here HEader Section Start */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px 15px;
+  }
+  .menuBar {
+    display: block;
+  }
+  .logo img {
+    width: 150px;
+    cursor: pointer;
+  }
+  .utility {
+    display: none;
+  }
+  /* Here Hero Section or MAin Section Start */
+  main {
+    height: 80vh;
+  }
+  .contactBox {
+    width: 85%;
+  }
+  form input {
+    width: 100%;
+  }
+  form textarea {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
 }

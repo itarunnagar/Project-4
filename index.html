@@ -3,45 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FOnt Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Title of the Page -->
     <title>Hospital Page</title>
 
     <!-- Link CSS Style Sheet -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet"
-  />
   <body>
     <!-- Here Header Start -->
     <header>
+      <!-- Menu Bar -->
+      <div class="menuBar">
+        <i class="fa-solid fa-bars"></i>
+      </div>
       <!-- Logo -->
       <div class="logo"><img src="./images/logo.png" alt="Logo" /></div>
 
       <ul class="utility">
         <li><a href="./index.html">Home</a></li>
         <li><a href="./about/about.html">About Us</a></li>
-        <li><a href="./contact/contact.html">Contact Us</a> </li>
+        <li><a href="./contact/contact.html">Contact Us</a></li>
       </ul>
     </header>
 
-
     <!-- Stethoscope Image or Backgrond Image -->
-        <img src="./images/stethoscope.png" class="bgc">
+    <img src="./images/stethoscope.png" class="bgc" />
 
     <!-- Here Hero Section or Main Section Start -->
     <main class="heroSection">
       <!-- Here Left Hero Section Start-->
       <section class="leftHero">
-
         <!-- Top angle Image or Arrow -->
-        <img src="./images/topAngle.png">
+        <img src="./images/topAngle.png" class="topAngle" />
 
         <!-- Main Heading -->
         <h1 class="heading">
@@ -56,14 +67,15 @@
         </p>
 
         <!-- Make Appointment Buttoom -->
-        <button class="bigBtn"><a href="./contact/contact.html">Appointment</a> </button>
+        <button class="bigBtn">
+          <a href="./contact/contact.html">Appointment</a>
+        </button>
 
         <!-- Bottom Angle Image -->
-        <img src="./images/bottomAngle.png" class="bottomAngle">
-
+        <img src="./images/bottomAngle.png" class="bottomAngle" />
 
         <!-- Mouse Image -->
-        <img src="./images/mouse.png" class="mouseImage">
+        <img src="./images/mouse.png" class="mouseImage" />
       </section>
 
       <!-- Here Right Hero Section Start -->

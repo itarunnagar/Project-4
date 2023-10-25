@@ -19,6 +19,9 @@ header {
   justify-content: space-between;
   margin: 20px 130px;
 }
+.menuBar {
+  display: none;
+}
 .logo img {
   width: 150px;
   cursor: pointer;
@@ -28,7 +31,7 @@ header {
   gap: 45px;
   list-style: none;
 }
-.utility li a{
+.utility li a {
   text-decoration: none;
   color: black;
   font-size: 15px;
@@ -40,29 +43,29 @@ header {
 /* Main Section section or Hero Section Start */
 /* Main Section section or Hero Section Start */
 main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 152px;
-    gap: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 152px;
+  gap: 17px;
 }
-.heading{
-    font-size: 33px;
-    color: #20BC7E;
-    font-weight: 800;    
+.heading {
+  font-size: 33px;
+  color: #20bc7e;
+  font-weight: 800;
 }
-.subHeading{
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 10px;
+.subHeading {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 /* Here Cards Section or  Feature Section */
 .box {
-    display: flex;
-    gap: 35px;
-    margin-top: 15px;
+  display: flex;
+  gap: 35px;
+  margin-top: 15px;
 }
 
 .cards {
@@ -75,9 +78,57 @@ main {
   justify-content: center;
   flex-direction: column;
 }
-.cards h1{
-    color: #20BC7E;
+.cards h1 {
+  color: #20bc7e;
 }
-.cards p{
-    font-size: 16px;
+.cards p {
+  font-size: 16px;
+}
+@media (max-width: 1150px) {
+  /* Here HEader Section Start */
+  /* Here HEader Section Start */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px 15px;
+  }
+  .menuBar {
+    display: block;
+  }
+  .logo img {
+    width: 150px;
+    cursor: pointer;
+  }
+  .utility {
+    display: none;
+  }
+  main {
+    display: block;
+    padding: 50px 20px;
+    margin-top: 30px;
+  }
+  .heading {
+    font-size: 33px;
+    color: #20bc7e;
+    font-weight: 800;
+  }
+  .subHeading {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px;
+  }
+
+  /* Here Cards Section or  Feature Section */
+  .box {
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+  }
+
+  .cards {
+    width: 100%;
+  }
 }
