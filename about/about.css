@@ -15,6 +15,7 @@ body {
 /* Here HEader Section Start */
 header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin: 20px 130px;
@@ -87,12 +88,19 @@ main {
 @media (max-width: 1150px) {
   /* Here HEader Section Start */
   /* Here HEader Section Start */
+  /* Here HEader Section Start */
+  /* Here HEader Section Start */
   header {
+    width: 100%;
+    max-height: 70px;
     display: flex;
+
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
-    margin: 0px 15px;
+    padding: 10px 20px;
+    margin: 0px;
+    box-shadow: 0px 0px 10px grey;
+    overflow-y: hidden;
   }
   .menuBar {
     display: block;
@@ -102,7 +110,13 @@ main {
     cursor: pointer;
   }
   .utility {
-    display: none;
+    display: block;
+    width: 100%;
+  }
+  .utility li {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
   }
   main {
     display: block;
